@@ -1,5 +1,5 @@
 export const initialState = [{
-    task: 'Add Task',
+    task: 'Water Plants',
     complete: false,
     id: Date.now()
 }]

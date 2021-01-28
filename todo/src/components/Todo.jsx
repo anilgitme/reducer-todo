@@ -1,4 +1,4 @@
-export default Todo = (props) => {
+const Todo = (props) => {
     return (
         <li style={props.complete ? {textDecoration: 'line-through'} : null}
         onClick={() => props.toggleComplete(props.id)}>
@@ -6,3 +6,4 @@ export default Todo = (props) => {
         </li>
     )
 }
+export default Todo;
